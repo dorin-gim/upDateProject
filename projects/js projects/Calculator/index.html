@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Calculator</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container mt-5 p-3 m-0 m-0 bd-example-cssgrid w-auto justify-content-center">
+
+        <h1 class="display-1 text-center fw-lighter text-warning">CALCULATOR</h1>
+
+
+        <div class="grid text-center mt-4" style="--bs-columns: 16; --bs-gap: .5rem; ">
+
+            <div style="grid-column: span 16;" class="form-control rounded-pill border-0 fs-4">
+                <input id="result" class="text-light w-100 h-100 form-control border border-dark-subtle rounded-pill" />
+            </div>
+
+            <button type="button" class="g-col-4 btn bg-warning border-0 rounded-pill fs-4"
+                onclick="sqrtNumb('Math.sqrt')">√a</button>
+            <button type="button" class="g-col-4 btn bg-warning border-0 rounded-pill fs-4"
+                onclick="addChar('**')">a^2</button>
+            <button type="button" class="g-col-4 btn bg-warning border-0 rounded-pill fs-4"
+                onclick="addChar('/100')">%</button>
+
+            <button type="button" class="g-col-4 text-light btn bg-secondary border-0 rounded-pill w-100 fs-4"
+                onclick="clearAction()">c
+            </button>
+
+            <button type="button" class="g-col-4 btn bg-primary border-0 rounded-pill  text-light fs-4"
+                onclick="addChar('1')">1</button>
+            <button type="button" class=" g-col-4 btn bg-primary border-0 rounded-pill  text-light fs-4"
+                onclick="addChar('2')">2</button>
+            <button type="button" class=" g-col-4 btn bg-primary border-0 rounded-pill text-light fs-4"
+                onclick="addChar('3')">3</button>
+
+            <button type="button" class="g-col-4 btn bg-warning border-0 rounded-pill fs-4"
+                onclick="addChar('/')">/</button>
+
+
+            <button type="button" class="g-col-4 btn bg-primary border rounded-pill border-primary text-light fs-4"
+                onclick="addChar('4')">4</button>
+            <button type="button" class="g-col-4 btn bg-primary border rounded-pill border-primary text-light fs-4"
+                onclick="addChar('5')">5</button>
+            <button type="button" class=" g-col-4 btn bg-primary border rounded-pill border-primary text-light fs-4"
+                onclick="addChar('6')">6</button>
+
+            <button type="button" class="g-col-4 btn bg-warning border-0 rounded-pill border-warning fs-4"
+                onclick="addChar('*')">x</button>
+
+            <button type="button" class="g-col-4 btn bg-primary border rounded-pill border-primary text-light fs-4"
+                onclick="addChar('7')">7</button>
+            <button type="button" class="g-col-4 btn bg-primary border-0 rounded-pill border-primary text-light fs-4"
+                onclick="addChar('8')">8</button>
+            <button type="button" class="g-col-4 btn bg-primary border-0 rounded-pill border-primary text-light fs-4"
+                onclick="addChar('9')">9</button>
+
+            <button type="button" class="g-col-4 btn bg-warning border-0 rounded-pill fs-4"
+                onclick="addChar('-')">-</button>
+
+            <button type="button" class=" g-col-4 btn bg-primary border-0 rounded-pill  text-light fs-4"
+                onclick="addChar('0')">0</button>
+            <button type="button" class=" g-col-4 btn bg-primary border-0 rounded-pill text-light fs-4"
+                onclick="addChar('.')">.</button>
+
+            <button type="button" class=" g-col-4 btn bg-success border-0 rounded-pill text-light fs-4"
+                onclick="showResult('=')">=</button>
+
+            <button type="button" class="g-col-4 btn bg-warning border-0 rounded-pill fs-4"
+                onclick="addChar('+')">+</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+</body>
+
+</html>

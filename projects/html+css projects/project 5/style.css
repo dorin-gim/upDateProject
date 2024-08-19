@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main-container{
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+.main-container .top-yellow-box{
+   width: 434px;
+   height: 18px;
+   background: #FDBD03 0% 0% no-repeat padding-box;
+   position: absolute;
+   right: 0;
+}
+
+.main-container .container-img{
+    width: 40vw;
+    margin-top: 5%;
+}
+
+.container-img img{
+    width: 63%;
+}
+
+.container-form{
+    width: 40vw;
+    margin-top: 8%;
+}
+
+.form-title h1{
+    text-align: right;
+    font: normal normal 900 66px/97px Heebo;
+    letter-spacing: 0px;
+    color: #FDBD03;
+}
+
+.form-title p{
+    text-align: right;
+    font: normal normal normal 20px/29px Heebo;
+    letter-spacing: 0px;
+    color: #020253;
+}
+
+
+.form-control label{
+    text-align: right;
+    font: normal normal bold 16px/24px Heebo;
+    letter-spacing: 0px;
+    color: #2C2C2C;
+    margin: 1em 0;
+}
+
+.form-control input{
+    background: #E5EEFF 0% 0% no-repeat padding-box;
+    height: 50px;
+    border:0;
+    border-radius: 0;
+    border-bottom: #FDBD03 solid 4px;
+}
+
+.form-control .message-box{
+    height: 142.5px;
+}
+
+.form-control button{
+    background: #FDBD03 0% 0% no-repeat padding-box;
+    width: 166px;
+    height: 50px;
+    font: normal normal bold 22px/30px Heebo;
+    letter-spacing: 0.33px;
+    color: #000000;
+    border: 0;
+    border-radius: 0;
+}
+
+.contact-top-button{
+    background: #FDBD03 0% 0% no-repeat padding-box;
+    width: 95px;
+    height: 95px;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 55px;
+    top: 60px;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row-reverse;
+    position: absolute;
+    left: 36px; /* 55-19=36 */
+    bottom: 5px;
+}
+
+.social-media div{
+    background: #FDBD03 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    margin: 19px;
+    width: 95px;
+    height: 95px;
+    border-radius: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-yellow-box{
+    width: 50vw;
+    height: 18px;
+    background: #FDBD03 0% 0% no-repeat padding-box;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+@media (max-width: 576px){
+
+    body{
+        width: 100vw;
+        
+    }
+
+    .contact-top-button{
+        display: none;
+    }
+
+    .main-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-container .top-yellow-box{
+        position: absolute;
+        top: 0;
+        width: 85vw;
+        height: 10px;
+    }
+
+    .main-container .container-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        height: 220px;
+    }
+
+    .container-img img{
+        width: 20%;
+        object-fit: contain;
+    }
+
+    .container-form{
+        width: 100%;
+    }
+
+    .form-title h1{
+        font: normal normal 900 40px/59px Heebo;
+        text-align: center;
+    }
+
+    .form-title p{
+        width: 80%;
+        font: normal normal normal 15px/22px Heebo;
+        text-align: center;
+        margin: 0 auto;;
+    }
+
+    .form-control label{
+        font: normal normal bold 10px/14px Heebo;
+    }
+
+    .form-control input{
+        height: 37px;
+        border-bottom: #FDBD03 solid 3px;
+    }
+
+    .form-control .message-box{
+        height: 105px;
+    }
+
+    .form-control button{
+        width: 100%;
+        height: 37px;
+        font: normal normal bold 15px/21px Heebo;
+    }
+
+    .social-media{
+        left: auto;
+        width: 100%;
+        justify-content: center;
+        position: relative;
+    }
+
+    .social-media div{
+        box-shadow: 0px 3px 6px #00000029;
+        width: 46px;
+        height: 46px;
+    }
+
+    .social-media div img{
+        width: 15px;
+    }
+
+    .bottom-yellow-box{
+        width: 100%;
+        height: 10px;
+        position: fixed;
+    }
+
+
+
+}

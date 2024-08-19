@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+}
+
+.container-img{
+    height: 50vh;
+}
+
+.container-img img{
+    width: 100%;
+}
+
+#container-form{
+    background: #1A1A1AD4 0% 0% no-repeat padding-box;
+    position: absolute;
+    margin-top: 157px;
+    margin-right: 295px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    width: 568px;
+    height: 643px;
+}
+
+
+.container-form-title{
+    display: flex;
+    flex-direction: column;
+    margin: 60px 60px 20px 60px;
+    align-items: center;
+    text-align: justify;
+    padding: 15px;
+}
+
+.container-form-title > h1{
+    font: normal normal 900 36px/53px Heebo;
+}
+
+.container-form-title > p{
+    margin-top: 20px;
+    font: normal normal normal 20px/29px Heebo;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin: 1em 0;
+    
+}
+
+.form-control > input{
+    width: 418px;
+    height: 50px;
+    border: 1.5px solid #D31C75;
+}
+
+.form-control > label{
+    font: normal normal bold 16px/24px Heebo;  
+}
+
+.form-button > input{
+    background: #D31C75 0% 0% no-repeat padding-box;
+    width: 166px;
+    height: 50px;
+    font: normal normal bold 22px/30px Heebo;
+    color: #FFFFFF;
+    border: 0;
+}
+
+@media (max-width: 768px){
+
+
+    .container-img{
+        width: 100%;
+    }
+
+    .container-img img{
+        width: 100%;
+        height: 30vh;
+        object-fit: cover;
+    }
+
+    .form-control input{
+        width: 230px;
+        height: 28px;
+    }
+
+    .form-control label{
+        font: normal normal bold 14px/21px Heebo;
+    }
+
+    .container-form-title{
+    display: flex;
+    flex-direction: column;
+    margin: 40px 35px 10px 35px;
+    padding: 10px;
+    text-align: center;
+    }
+
+    .container-form-title h1{
+        font: normal normal 900 25px/30px Heebo;
+        margin: 0 10px 0 10px;
+    }
+
+    .container-form-title p{
+        font: normal normal normal 15px/22px Heebo;
+    }
+
+    #container-form{
+        width: 80%;
+        height: 65%;
+        position: absolute;
+        margin-top: 89px;
+        margin-right: 34px;
+    }
+
+
+
+    .form-button input{
+        width: 76px;
+        height: 33px;
+        font: normal normal bold 15px/20px Heebo;
+    }
+}

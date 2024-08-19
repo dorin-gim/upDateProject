@@ -1,0 +1,95 @@
+@media (max-width: 576px){
+    .navbar-container{
+        display: none;
+    }
+
+    .main-container{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .container-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 50px;
+    }
+
+    .container-title .project-title h4{
+        font-size: 40px;
+    }
+
+    .project-info{
+        width: 80%;
+        margin: 0;
+    }
+
+    .project-info .project-text{
+        font-size: $textMobileSize;
+        width: 100%;
+        margin: 0;
+    }
+
+    //image
+
+    .project-info .project-img{
+        width: 100%;
+    }
+
+    .project-info .project-img img{
+        width: 100%;
+    }
+
+    
+    //buttons
+
+    .project-buttons{
+        width: 100%;
+        margin: 50px;
+    }
+
+    .project-buttons .primary-button{
+        width: $buttonMobileWidth;
+        height: $buttonMobileHeight;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-buttons .secondary-button{
+        width: $buttonMobileWidth;
+        height: $buttonMobileHeight;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .project-buttons a{
+        font-size: $buttonMobileFontSize;
+    }
+
+    .back-to-home-button .secondary-button{
+        width: $buttonMobileWidth;
+        height: $buttonMobileHeight;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+    }
+
+    .back-to-home-button .secondary-button a{
+        font-size: $buttonMobileFontSize;
+    }
+  
+
+    .main-container .footer{
+        display: none;
+    }
+
+    
+    
+}

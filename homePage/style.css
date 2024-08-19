@@ -1,0 +1,575 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000; 
+    background-image: url("../homePage/images/background/Screenshot\ 2024-05-04\ at\ 10.20\ 1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+}
+
+/*navbar-container*/
+
+.navbar-container{
+    background-color: #000;
+    display: block;
+    position: fixed;
+    top:0;
+    width: 15%;
+    height: 100vh;
+}
+
+.navbar-container  .logo  img{
+    width: 95px;
+    display: block;
+    margin: 49px 58px 105px 58px;
+}
+
+.navbar-container .navbar nav ul{
+    list-style-type: none;
+    width: 212px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+.navbar-container .navbar nav ul a{
+    color: #fff;
+    text-decoration: none;
+    line-height: 2;
+    font-family: alumni sans;
+    font-size: 26px;
+    font-weight: light;
+}
+
+.navbar-container .navbar nav ul a:hover{
+    color: #D823CF;
+    font-size: 30px;
+}
+
+.navbar-container .social-media-links{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+}
+
+.navbar-container .social-media-links img{
+    margin: 10px;
+    padding: 10px;
+}
+
+
+/* container titeles */
+
+.container-title{
+    font-family: alumni sans;
+    display: flex;
+    flex-direction: column;
+    margin-left: 290px;
+}
+
+.container-title h1{
+    margin-top: 200px;
+    font-size: 120px;
+    color: #fff;
+    font-weight: bolder;
+    line-height: 1;
+}
+
+.container-title h2{
+    margin-top: 200px;
+    font-size: 120px;
+    color: #fff;
+    font-weight: bolder;
+    line-height: 1;
+}
+
+.container-title .sign{
+    color: #B937FF ;
+}
+
+.container-title h2 span{
+    color: #D823CF;
+}
+
+/*container buttons*/
+
+.container-button button{
+    width: 189px;
+    height: 49px;
+    font-size: 30px;
+    font-weight: medium;
+    background-color: #000;
+    border: 2px solid #D823CF;
+    text-align: center;
+    margin-top: 80px;
+    font-family: alumni sans;
+}
+
+.container-button button a{
+    text-decoration: none;
+    color: #D823CF;
+}
+
+.container-button button:hover{
+    font-family: alumni sans;
+    background-color: #D823CF;
+
+    box-shadow: 0 4px 10px 0 rgba(96,167,141,0.43),2px 2px 10px 0 rgba(96,167,141,0.43) ;
+}
+
+.container-button a:hover{
+    color: #000;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    background-color: #D823CF;
+    font-size: 22px;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer .footer-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer p{
+    margin-left: 290px;
+    font-family: alumni sans;
+    font-weight: 400;
+    color: #fff;
+}
+
+.footer .email{
+    margin-right: 60px;
+}
+
+/* abuot me page */
+
+.about-me{
+    margin-top: -100px;
+}
+
+.container-text{
+    font-family: inter;
+    font-size: 18px;
+    line-height: 2;
+    width: 681px;
+    font-weight: lighter;
+    color: #fff;
+    margin-top: 50px;
+}
+
+.container-skills .sillks-title h3{
+    color: #D823CF;
+    font-size: 60px;
+    font-weight: medium;
+    margin-top: 80px;
+    font-family: alumni sans;
+}
+.container-skills .sillks-title h3 span{
+    color: #fff;
+}
+
+.container-skills .skills-icons{
+    display: flex;
+    align-items: center;
+}
+.container-skills .skills-icons img{
+    margin: 20px;
+}
+
+.container-skills .skills-icons  h3{
+    color: #D823CF;
+    font-size: 60px;
+    font-weight: medium;
+}
+
+/*contact page*/
+.contact{
+    margin-top: -100px;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+    font-family: alumni sans;
+}
+
+.form-container .form-control{
+    border: 0;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+.form-container .form-control label{
+    font-size: 20px;
+    color: #fff;
+    font-weight: medium;
+}
+
+.form-container .form-control input{
+    background-color: #000;
+    border: 2px solid #D823CF;
+    width: 520px;
+    height: 50px;
+    color: #fff;
+    font: normal 16px inter;
+}
+
+.form-container .form-control #message{
+    height: 150px;
+    
+}
+
+.form-container form .form-button input{
+    font-family: alumni sans;
+    text-decoration: none;
+    color: #000;
+    font-size: 30px;
+    font-weight: medium;
+    width: 189px;
+    height: 49px;
+    background-color: #D823CF;
+    margin-top: 50px;
+    border: none;   
+}
+
+.form-container form .form-button input:hover{
+    font-family: alumni sans;
+    background-color: #000;
+    color: #D823CF;
+    border: 1px solid #D823CF;
+    box-shadow: 0 4px 10px 0 rgba(96,167,141,0.43),2px 2px 10px 0 rgba(96,167,141,0.43) ;
+}
+
+/*projects*/
+.cards-container{
+    margin: 0;
+    gap: 10px;
+    width: 90%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    background-color: #151B1E;
+    display: inline-block;
+    max-width: 430px;
+    min-width: 330px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+
+.container *{
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+.container button{
+    background-color: #151B1E;
+    border: 2px solid #fff;
+    color: #D823CF;
+    font-size: 22px;
+    margin: 0;
+    padding: 5px;
+    text-transform: uppercase;
+    font-family: alumni sans;
+    font-weight: 200;
+}
+.container::before,
+.container::after{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    -webkit-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+    background-color: #151B1E;
+    border-left: 3px solid #fff;
+    border-right: 3px solid #fff;
+    content: '';
+    opacity: 0.9;
+    z-index: 1
+    }
+
+.container::before{
+    -webkit-transform: skew(45deg) translateX(-155%) ;
+    transform:skew(45deg) translateX(-155%) ;
+}
+
+.container::after{
+    -webkit-transform: skew(45deg) translateX(155%) ;
+    transform:skew(45deg) translateX(155%) ;
+}
+
+
+.container img{
+    width: 430px;
+    height: 300px;
+    object-fit: cover;
+    backface-visibility: hidden;
+    max-width: 100%;
+    vertical-align: top;
+}
+
+.container figcaption{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%) scale(0.5) ;
+    transform:translate(-50%, -50%) scale(0.5) ;
+    opacity: 0;
+    -webkit-box-shadow: 0 0 10px #000;
+    box-shadow: 0 0 10px #000;
+}
+
+.container a{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
+
+.container:hover img{
+    opacity:0.5 ;
+}
+
+.container:hover::before,
+.container.hover::before{
+    transform: skew(45deg) translateX(-55%);
+    -webkit-transform: skew(45deg) translateX(-55%);
+}
+
+.container:hover::after,
+.container.hover::after{
+    transform: skew(45deg) translateX(55%);
+    -webkit-transform: skew(45deg) translateX(55%);
+}
+
+.container:hover figcaption,
+.container.hover figcaption{
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+/*responsive*/
+@media (max-width: 576px){
+    body{
+    background-size: inherit;
+    background-position: center;
+    background-image: url("../homePage/images/background/Screenshot\ 2024-05-04\ at\ 10.20\ 1.png");
+}
+
+.main-container{
+    height: 100vh;
+    width: 100vw;
+}
+
+/*navbar-container*/
+#hamburger{
+    border: none;
+    display: flex;
+    margin: 30px;
+}
+.navbar-container{
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    display: none;
+    width: 50%;
+    position: absolute;
+    background-color: #1A272E;
+    z-index: 1;
+}
+
+.navbar-container  .logo  img{
+    width: 50px;
+    display: block;
+}
+
+.navbar-container .navbar nav ul{
+    width: 100%;
+}
+
+.navbar-container .navbar nav ul a{
+    line-height: 2;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.navbar-container .social-media-links{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 90%;
+}
+
+.navbar-container .social-media-links img{
+    width: 70%;
+    margin: 10px;
+    padding: 10px;
+}
+
+/* container titeles */
+
+.container-title{
+    margin: 0 25px;
+    height: 100%;
+}
+
+.container-title .title{
+    margin: 0;
+}
+
+.container-title h1{
+    font-size: 80px;
+    margin-top: 50px;
+}
+
+.container-title h2{
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+/*container buttons*/
+.container-button button{
+    width: 138px;
+    height: 36px;
+    font-size: 22px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.footer p{
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    align-items: center;
+    margin: 0 20px;
+    text-align: justify;
+}
+
+/* abuot me page */
+
+.container-text{
+    font-size: 14px;
+    width: 85vw;
+}
+
+.container-skills .sillks-title h3{
+    font-size: 40px;
+}
+.container-skills .skills-icons h3{
+    font-size: 40px;
+}
+
+.container-skills .skills-icons{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
+
+.container-skills .skills-icons img{
+    width: 30%;
+}
+
+/*contact page*/
+.form-container{
+    width: 85vw;
+    margin-top: 20px;
+    
+}
+
+.form-container .form-control label{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.form-container .form-control input{
+    width: 80vw;
+    height: 34px;
+    font-size: 12px;
+}
+.form-container form .form-button input{
+    width: 138px;
+    height: 36px;
+    font-size: 22px;
+    margin-top: 50px;
+    
+}
+
+.form-container .form-control #message{
+    height: 120px;
+}
+
+.form-container form .form-button input{
+    width: 138px;
+    height: 36px;
+    font-size: 22px;
+    margin-top: 50px;
+}
+
+/*projects*/
+
+.title{
+    margin-bottom: 20px;
+}
+
+.cards-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+.container-title .cards-container .container{
+    height: 100%;
+} 
+
+.cards-container .container img{
+    width: 85%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.title-java{
+    margin-top: 50px;
+}
+
+
+}

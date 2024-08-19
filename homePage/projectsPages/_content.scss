@@ -1,0 +1,242 @@
+body{
+    background-color: $backColor;
+    background-image: url("../images/background/Screenshot\ 2024-05-04\ at\ 10.20\ 1.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.hamburger{
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: $firstColor;
+    height: 40px;
+    line-height: 2;
+    display: none;
+}
+
+.navbar-container{
+    background-color:$backColor;
+    display: block;
+    position: fixed;
+    top:0;
+    width: 15%;
+    height: 100vh;
+}
+
+.navbar-container  .logo  img{
+    width: 95px;
+    display: block;
+    margin: 49px 58px 105px 58px;
+}
+
+.navbar-container .navbar nav ul{
+    list-style-type: none;
+    width: 212px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+.navbar-container .navbar nav ul a{
+    color: $firstColor;
+    text-decoration: none;
+    line-height: 2;
+    font-family: alumni sans;
+    font-size: 26px;
+    font-weight: light;
+}
+
+.navbar-container .navbar nav ul a:hover{
+    color:$thirdColor ;
+    font-size: 30px;
+}
+
+.navbar-container .social-media-links{
+    display: flex;
+    flex-direction: row;
+    width: 50vw;
+}
+
+.navbar-container .social-media-links img{
+    margin: 10px;
+    padding: 10px;
+}
+
+.container-title{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    width: 85%;
+    margin: 100px;
+}
+
+
+.container-title .project-title{
+    color: $firstColor;
+    font-family: $titleFont;
+    font-size: $titleSize;
+    font-weight: bolder;
+}
+
+.container-title .project-title span{
+    color: $secondColor;
+}
+
+.project-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 85%;
+    margin: 100px;
+}
+
+.project-text{
+    color: $firstColor;
+    font-family: $textFont;
+    font-size: $textSize;
+    width: $textWidth;
+    font-weight: $textFontWeight;
+    line-height: $textLineHeight;
+    text-align: $textAlign;
+}
+
+.project-info .project-tools{
+    margin: 20px 0;
+}
+
+.project-info .project-tools img{
+    margin: 10px;
+    width: $imgToolSize;
+}
+
+.project-buttons{
+    margin: 60px 295px 60px;
+    display: flex;
+}
+
+
+.project-buttons .secondary-button{
+    background-color: $backColor;
+    color: $thirdColor;
+    border: $secondButtonBorder;
+    width: $buttonWidth;
+    height: $buttonHeight;
+    font-family: $titleFont;
+    font-size: $buttonFontSize;
+    text-decoration: $buttonDecoration;
+}
+.project-buttons .secondary-button a{
+    text-decoration: none;
+    color: $thirdColor;
+    width: $buttonWidth;
+}
+
+.project-buttons .secondary-button:hover{
+    background-color: $thirdColor;
+    color: $backColor;
+    box-shadow: 0 4px 10px 0 rgba(96,167,141,0.43),2px 2px 10px 0 rgba(96,167,141,0.43) ;
+}
+
+.project-buttons .secondary-button a:hover{
+    text-decoration: $buttonDecoration;
+    color: $backColor;
+    width: $buttonMobileWidth;
+}
+
+.project-buttons .primary-button{
+    width: $buttonWidth;
+    height: $buttonHeight;
+    font-family: $titleFont;
+    font-size: $buttonFontSize;
+    background-color: $thirdColor;
+    border: 0;
+    text-decoration: none;
+    margin-right: 25px;
+}
+
+.project-buttons .primary-button a{
+    text-decoration: none;
+    color: $backColor;
+}
+
+.project-buttons .primary-button:hover{
+    background-color: $backColor;
+    color: $thirdColor;
+    border: $secondButtonBorder;
+    box-shadow: 0 4px 10px 0 rgba(96,167,141,0.43),2px 2px 10px 0 rgba(96,167,141,0.43) ;
+}
+
+.project-buttons .primary-button a:hover{
+    color: $thirdColor;
+    width: 100%;
+}
+
+.project-img img{
+    width: $projectImgSize;
+    
+}
+
+.back-to-home-button .secondary-button{
+    background-color: $backColor;
+    color: $thirdColor;
+    border: $secondButtonBorder;
+    width: $buttonWidth;
+    height: $buttonHeight;
+    font-family: $titleFont;
+    font-size: $buttonFontSize;
+    margin-bottom: 100px;
+    margin-top: 80px;
+}
+
+.back-to-home-button .secondary-button a{
+    text-decoration: $buttonDecoration;
+    color: $thirdColor;
+}
+
+.back-to-home-button .secondary-button:hover{
+    background-color: $thirdColor;
+    box-shadow: 0 4px 10px 0 rgba(96,167,141,0.43),2px 2px 10px 0 rgba(96,167,141,0.43) ;
+}
+
+.back-to-home-button .secondary-button a:hover{
+    color: $backColor;
+    
+}
+
+.main-container .footer{
+    width: 100%;
+    background-color: #D823CF;
+    font-size: 22px;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer .footer-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer p{
+    margin-left: 290px;
+    font-family: alumni sans;
+    font-weight: 400;
+    color: #fff;
+}
+
+.footer .email{
+    margin-right: 60px;
+}
+
+
+
+
