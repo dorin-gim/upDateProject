@@ -256,7 +256,7 @@ body{
     font-size: 60px;
     font-weight: medium;
     margin-top: 80px;
-    font-family: 'Alumni Sans';
+    font-family: Alumni SansAlumni Sans;
 }
 .container-skills .sillks-title h3 span{
     color: #fff;
@@ -313,7 +313,7 @@ body{
     display: flex;
     flex-direction: column;
     margin-top: 80px;
-    font-family: 'Alumni Sans';
+    font-family: Alumni SansAlumni Sans;
 }
 
 .form-container .form-control{
@@ -342,7 +342,7 @@ body{
 }
 
 .form-container form .form-button input{
-    font-family: 'Alumni Sans';
+    font-family: Alumni SansAlumni Sans;
     text-decoration: none;
     color: #000;
     font-size: 30px;
@@ -355,7 +355,7 @@ body{
 }
 
 .form-container form .form-button input:hover{
-    font-family: 'Alumni Sans';
+    font-family: Alumni SansAlumni Sans;
     background-color: #000;
     color: #D823CF;
     border: 1px solid #D823CF;
@@ -403,7 +403,7 @@ body{
     margin: 0;
     padding: 5px;
     text-transform: uppercase;
-    font-family: alumni sans;
+    font-family: Alumni SansAlumni Sans;
     font-weight: 200;
 }
 .container::before,
