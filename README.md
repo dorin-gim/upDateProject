@@ -13,7 +13,14 @@ This portfolio project demonstrates my development abilities.
 
 This portfolio project is a showcase of my development skills. It includes several small projects where I've practiced using different tools to solve problems. I've also had fun developing and designing my portfolio.
 
+## Demo
+[Live Demo](https://dorin-gim.github.io/upDateProject/homePage/index.html)
 
+## Technologies
+- HTML
+- CSS
+- JavaScript
+  
 ## Installation
 
 To get a local copy up and running, follow these simple steps.
@@ -28,13 +35,15 @@ List any prerequisites for the project:
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/dorin-gim/dorinportfolio.git
+   git clone https://github.com/dorin-gim/upDateProject.git
 
 2. Navigate to the project directory:
    ```sh
    cd home page
 
 3. Open index.html in your web browser to view the project.
+
+
 
 ### Usage
 Provide instructions and examples for using the project. For example:
@@ -45,6 +54,4 @@ Provide instructions and examples for using the project. For example:
 
 ### Contact
 
-Dorin Gimpel Gal - doringim1@gmail.com
-
-Project Link: https://github.com/dorin-gim/dorinportfolio.git
+Dorin Gimpel Gal - [doringim1@gmail.com](mailto:doringim1@gmail.com)
