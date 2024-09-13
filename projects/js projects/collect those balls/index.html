@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mister Balls</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla& display=swap" rel="stylesheet">
+
+</head>
+
+<body onkeyup="onKey(event)" onload="onInitGameLevels()">
+    <div class="main">
+
+        <h1>Collect those Balls</h1>
+
+        <div class="manage-game">
+            <div class="board-div">
+                <table>
+                    <tbody class="board"></tbody>
+                </table>
+            </div>
+
+            <div class="levels-buttons">
+                <button id="eazy" onclick="chooseLevel('eazy')">Eazy</button>
+                <button id="medium" onclick="chooseLevel('medium')">Medium</button>
+                <button id="hard" onclick="chooseLevel('hard')">Hard</button>
+                <button id="superHard" onclick="chooseLevel('superHard')">Super</button>
+            </div>
+
+
+        </div>
+
+        <div>
+            <p class="youWin"></p>
+        </div>
+
+        <div>
+            <h3> Balls collected:<span class="collectedBalls"></span></h3>
+        </div>
+        <div class="restartButton">
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+
+</html>

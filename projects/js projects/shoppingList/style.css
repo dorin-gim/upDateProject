@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/background-02.png);
+    background-repeat: no-repeat;
+}
+
+.container{
+    height: 100vh;
+    background-color: #fbf9dfa7;
+}
+
+.btn{
+    width: 100px;
+}
+
+@media (max-width: 576px){
+    .container{
+        height: 90vh;
+        width: 80vw;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .input{
+        width: 70%;
+    }
+
+    .button{
+        width: 30%;
+    }
+
+
+}

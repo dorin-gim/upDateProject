@@ -9,6 +9,7 @@ body {
   background-image: url("../images/background/Screenshot 2024-05-04 at 10.20 1.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-size: cover;
   background-position: right top;
   max-width: 100%;
   overflow-x: hidden;
@@ -28,7 +29,7 @@ body {
   display: block;
   position: fixed;
   top: 0;
-  width: 15%;
+  width: 13vw;
   height: 100vh;
 }
 
@@ -184,7 +185,7 @@ body {
 }
 
 .project-img img {
-  width: 70vw;
+  width: 50vw;
 }
 
 .back-to-home-button .secondary-button {

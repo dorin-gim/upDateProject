@@ -1,0 +1,84 @@
+/* inter-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 200;
+  src: url('../fonts/inter-v18-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/inter-v18-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/inter-v18-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* inter-800 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/inter-v18-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter','Thoma', 'sans-serif';
+    min-height: 100vh;
+    /* background-image: url(/images/istockphoto-512218646-1024x1024.jpg); */
+    background: var(--course-id, linear-gradient(#2972FF 0%, #12C6FF 100%))
+}
+
+.container{
+    height: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color:  #ffffff68;
+    opacity: 0.9;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 15px 15px 20px rgba(20, 16, 94, 0.316);
+}
+
+input[type="text"]{
+    border-radius: 20px;
+    padding: 5px 10px;
+    &:focus{outline-color:#000 ;}
+}
+
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+#weatherInfo{
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+#weatherIcon{
+  height: 25vh;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touch 'Em</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main-contaier">
+
+        <div class="main-title">
+            <h1>Touch 'Em</h1>
+        </div>
+
+        <div class="second-title">
+            <h3>Next Number: <span class="showNext">1</span></h3>
+        </div>
+
+        <p id="you-win">
+        </p>
+
+        <div class="game-container">
+            <div class="numbers-container">
+                <table>
+                    <tbody class="getNumber">
+                    </tbody>
+                </table>
+            </div>
+            <div class="timer">
+                <p id="minutes">00</p>
+                <p id="seconds">00</p>
+                <p id="mili-seconds">00</p>
+
+            </div>
+            <div class="new-game"><button onclick="newGame()">New Game</button></div>
+        </div>
+
+        <div class="level-manage">
+            <div>
+                <p>Choose level:</p>
+            </div>
+            <div class="levels-buttons">
+                <button class="level" onclick="chooseLevel('9')">9</button>
+                <button class="level" onclick="chooseLevel('16')">16</button>
+                <button class="level" onclick="chooseLevel('25')">25</button>
+                <button class="level level-display" onclick="chooseLevel('36')">36</button>
+                <button class="level level-display" onclick="chooseLevel('49')">49</button>
+                <button class="level level-display" onclick="chooseLevel('64')">64</button>
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

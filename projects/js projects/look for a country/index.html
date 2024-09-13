@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Look for a country</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jomhuria&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <div class="title">
+            <h1>Look for a Country</h1>
+            <h5></h5>
+        </div>
+
+        <div class="input-city">
+            <input id="city" type="search" placeholder="Insert a capital city ">
+            <button onclick="search()" id="search">Search</button>
+        </div>
+
+        <div id="cityData">
+            <img id="flag" alt="">
+            <div class="city-info">
+                <h2 id="coutryName"></h2>
+                <p id="population"></p>
+                <p id="region"></p>
+                <p id="lang"></p>
+                <a id="map" target="_blank"></a>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

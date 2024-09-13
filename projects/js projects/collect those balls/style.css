@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    align-items: center;
+}
+
+h1{
+    margin: 50px;
+    font-size: 100px;
+    font-family: Protest Guerrilla;
+}
+
+h3{
+    margin: 20px;
+    font-size: 30px;
+    font-family: Protest Guerrilla;
+}
+
+span{
+    color:rgb(59, 230, 12) ;
+    font-size: 36px;
+}
+
+.manage-game{
+    display: flex;
+    flex-direction: row;
+}
+
+.manage-game .levels-buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+.cell {
+    width: 55px;
+    height: 55px;
+    text-align: center;
+}
+
+.manage-game .levels-buttons button{
+    background-color: #00bfff;
+    color: rgb(255, 255, 255);
+    width: 100px;
+    height: 100px;
+    font-size: 22px;
+    color: black;
+    font-family: Protest Guerrilla;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 4px 4px 10px #c8beff87;
+}
+
+.cell img{
+    width: 30px;
+    height: auto;
+}
+
+.floor {
+    background-color: rgb(143, 143, 143);
+}
+
+.wall {
+    background-color: rgb(59, 230, 12);
+}
+
+.youWin{
+    position: absolute;
+    left:30%;
+    font-size: 200px;
+    font-weight: bolder;
+    top: 40%;
+    color: #ffffff;
+    text-shadow: 8px 8px 5px #244e14d0 ;
+    font-family: Protest Guerrilla;
+}
+
+.new-game{
+    background-color:rgb(59, 230, 12) ;
+    width: 100px;
+    height: 50px;
+    font-size: 22px;
+    color: black;
+    font-family: Protest Guerrilla;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 4px 4px 10px rgba(59, 230, 12, 0.627);
+}
+
+@media (max-width: 576px){
+    .main{
+        width: 100%;
+    }
+
+    h1{
+        font-size: 35px;
+    }
+
+    h3{
+        margin: 10px;
+    }
+
+    .manage-game{
+    flex-direction: column;
+    }
+
+    .manage-game .levels-buttons{
+    flex-direction: row;
+    justify-content: space-around;
+    }
+
+    .cell{
+        width: 25px;
+        height: 25px;
+    }
+    .cell img{
+        width: 20px;
+        height: 20px;
+    }
+
+    .youWin{
+        font-size: 80px;
+        text-align: center;
+        left: 10%;
+        top: 30%;
+    }
+
+    .manage-game .levels-buttons button{
+        width: 60px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+    .new-game{
+        height: 60px;
+        width: 100px;
+        font-size: 20px;
+    }
+
+
+}

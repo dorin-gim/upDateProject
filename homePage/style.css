@@ -8,6 +8,7 @@ body{
     background-color: #000; 
     background-image: url("../homePage/images/background/Screenshot\ 2024-05-04\ at\ 10.20\ 1.png");
     background-repeat: no-repeat;
+    background-size: cover;
     background-attachment: fixed;
     background-position: right top;
 }
@@ -19,12 +20,13 @@ body{
     display: block;
     position: fixed;
     top:0;
-    width: 15%;
+    left: 0;
+    width: 13vw;
     height: 100vh;
-}
+} 
 
-.navbar-container  .logo  img{
-    width: 95px;
+.navbar-container  .logo img{
+    width: 40%;
     display: block;
     margin: 49px 58px 105px 58px;
 }
@@ -84,11 +86,15 @@ body{
 }
 
 .container-title h2{
-    margin-top: 200px;
+    margin-top: 150px;
     font-size: 120px;
     color: #fff;
     font-weight: bolder;
     line-height: 1;
+}
+
+.container-title .projects-title{
+    margin-top: -80px;
 }
 
 .container-title .sign{
@@ -203,6 +209,34 @@ body{
     margin-top: -100px;
 }
 
+.body-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.photo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo-container img{
+    width: 80%;
+}
+
+.photo-container p{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.line{
+    border-top: #fff solid 1px;
+    margin: 20px;
+    width: 70%;
+}
+
 .form-container{
     display: flex;
     flex-direction: column;
@@ -217,9 +251,9 @@ body{
     padding: 0;
 }
 .form-container .form-control label{
-    font-size: 20px;
+    font-size: 22px;
     color: #fff;
-    font-weight: medium;
+    font-weight: normal;
 }
 
 .form-container .form-control input{
@@ -232,8 +266,7 @@ body{
 }
 
 .form-container .form-control #message{
-    height: 150px;
-    
+    height: 150px;   
 }
 
 .form-container form .form-button input{
@@ -258,13 +291,16 @@ body{
 }
 
 /*projects*/
+.javascript-projects{
+    display: flex;
+    flex-direction: column;
+}
 .cards-container{
     margin: 0;
     gap: 10px;
     width: 90%;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    height: 40vh;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -406,7 +442,7 @@ body{
     width: 50%;
     position: absolute;
     background-color: #1A272E;
-    z-index: 1;
+    z-index: 999;
 }
 
 .navbar-container  .logo  img{
@@ -416,6 +452,7 @@ body{
 
 .navbar-container .navbar nav ul{
     width: 100%;
+    z-index: 1;
 }
 
 .navbar-container .navbar nav ul a{

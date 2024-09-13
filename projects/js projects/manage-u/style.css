@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./image/background\ 2.png);
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left bottom;
+}
+
+@media (max-width: 576px){
+    body{
+        background-image: url(./image/mobile\ background\ .png);
+        background-size: 90%;
+        font-size: 16px;
+    }
+
+    button{
+        width: 35px;
+        height: 35px;
+    }
+
+   
+}
