@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Numb</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jomhuria&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main-container">
+
+
+        
+        <h1>Guess the Numb</h1>
+        
+        <h3><span id="turns"></span></h3>
+        <h5>You have 5 attempts to guess number (1-10):</h5>
+    
+
+    <div class="guessing-container">
+        
+        <div class="guess">
+            <p id="guess"></p>
+        </div>
+    </div>
+
+    <div id="answer">
+        <p ></p>
+    </div>
+
+    <div class="chek-container">
+        <button onclick="check()" id="checkBtn">Check</button>
+        <button onclick="startGame()">Start New Game</button>
+    </div>
+
+    <div class="choose-container">
+        <div class="numb1"><button onclick="addChar('1')">1</button></div>
+        <div class="numb2"><button onclick="addChar('2')">2</button></div>
+        <div class="numb3"><button onclick="addChar('3')">3</button></div>
+        <div class="numb4"><button onclick="addChar('4')">4</button></div>
+        <div class="numb5"><button onclick="addChar('5')">5</button></div>
+        <div class="numb6"><button onclick="addChar('6')">6</button></div>
+        <div class="numb7"><button onclick="addChar('7')">7</button></div>
+        <div class="numb8"><button onclick="addChar('8')">8</button></div>
+        <div class="numb9"><button onclick="addChar('9')">9</button></div>
+        <div class="numb9"><button onclick="addChar('10')">10</button></div>
+    </div>
+
+    
+    
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

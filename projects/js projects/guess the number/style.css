@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e99c0f;
+    color: rgb(36, 143, 134);
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: 100vw;
+    background-image: url("./images/dice2.png");
+    background-repeat:no-repeat;
+    background-position: right top;
+    background-size: 400px;
+}
+
+
+
+.main-container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    font-family: Tahoma;
+    font-weight: bold;
+    text-shadow: 0px 4px 4px #00000029;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    background-image: url("./images/dice1.png");
+    background-repeat:no-repeat;
+    background-position: left;
+    background-size: 300px;
+}
+
+.main-container h3{
+    margin-top: 50px;
+    font-size:90px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.main-container h5{
+    margin-top: 20px;
+    font-size:30px;
+    display: flex;
+    justify-content:center;
+    -webkit-text-stroke-width: 1px;
+}
+
+.guessing-container{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    font-size: 120px;
+    justify-content: space-evenly;
+    
+}
+
+#answer{
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-weight: 200;
+    -webkit-text-stroke-width: 0px;
+    height: 30px;
+}
+
+.choose-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
+}
+
+.choose-container button{
+    height: 150px;
+    width: 130px;
+    background-color:rgb(36, 143, 134);
+    border: none;
+    color: #e99c0f;
+    font-family: Tahoma;
+    font-size: 90px;
+    font-weight: bolder;
+    
+}
+
+.chek-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:30px;
+    
+}
+
+.chek-container button{
+    background-color: rgb(36, 143, 134);
+    border: none;
+    height: 50px;
+    width: 160px;
+    margin: 5px;
+    color: white;
+    font-size: 20px;
+    -webkit-text-stroke-width: 0px;
+}
+
+@media (max-width: 576px){
+
+    body{
+        width: 100vw;
+        background-size: 30%;
+        height: 100vh;
+    }
+
+    .main-container{
+        background-size: 20%;
+        -webkit-text-stroke-width: 1px;
+    }
+
+    .main-container h1{
+        display: flex;
+        margin-top: 20px;
+        justify-content: center;
+        font-size: 20px;
+        width: 100vw;
+    }
+
+    .main-container h3{
+    margin-top: 50px;
+    font-size:40px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.main-container h5{
+    margin-top: 20px;
+    font-size:18px;
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke-width: 0.5px;
+    text-align: center;
+}
+.choose-container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows:repeat(2, 1fr) ;
+    margin-top: 20px;
+}
+.choose-container button{
+    height: 90px;
+    width: 60px;
+    background-color:rgb(36, 143, 134);
+    border: none;
+    color: #e99c0f;
+    font-family: Tahoma;
+    font-size: 40px;
+    font-weight: bolder;
+    margin: 4px;
+    
+}
+
+.chek-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:15px;
+    
+}
+
+.chek-container button{
+    background-color: rgb(36, 143, 134);
+    border: none;
+    height: 30px;
+    width: 110px;
+    margin: 3px;
+    color: white;
+    font-size: 14px;
+    -webkit-text-stroke-width: 0px;
+}
+
+.guessing-container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 50px;
+    justify-content: space-evenly;
+    
+}
+
+#answer{
+    font-size: 16px;
+    height: 20px;
+}
+
+
+
+}
+
