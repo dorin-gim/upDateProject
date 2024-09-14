@@ -108,6 +108,7 @@ function newGame(){
     document.getElementById("you-win").innerHTML = ''
     document.querySelector(".getNumber").innerText =''
     firstNumber = 1
+    nextNumber = 1
     buildGame()
 }
 
