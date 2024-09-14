@@ -680,5 +680,15 @@ body{
     margin-top: 50px;
 }
 
+/*contact*/
+.body-container{
+    flex-direction: column;
+    align-items: center;
+}
+
+.photo-container{
+    margin-top: 40px;
+}
+
 
 }
