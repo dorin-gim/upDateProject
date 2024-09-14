@@ -175,9 +175,9 @@ body {
   margin: 100px;
 }
 
-.project-text {
+.project-info .project-text {
   color: #fff;
-  font-family: 'Alumni Sans';
+  font-family: Alumni Sans;
   font-size: 18px;
   width: 45%;
   font-weight: 100;
