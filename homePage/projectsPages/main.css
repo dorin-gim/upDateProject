@@ -177,10 +177,10 @@ body {
 
 .project-text {
   color: #fff;
-  font-family: alumni sans;
+  font-family: 'Alumni Sans';
   font-size: 18px;
   width: 45%;
-  font-weight: lighter;
+  font-weight: 100;
   line-height: 1.5;
   text-align: center;
 }
