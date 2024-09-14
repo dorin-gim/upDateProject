@@ -368,13 +368,24 @@ body{
     flex-direction: column;
 }
 .cards-container{
-    margin: 0;
-    gap: 10px;
+    margin: 10px;
     width: 90%;
-    height: 40vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: 70vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 10px;
+}
+
+.js-cards-container{
+    margin: 10px;
+    width: 90%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 10px;
+    margin-bottom: 50px;
 }
 
 .container{
@@ -386,6 +397,7 @@ body{
     position: relative;
     text-align: center;
     width: 100%;
+    margin: 10px;
     
 }
 
@@ -661,15 +673,25 @@ body{
 }
 
 .cards-container{
-    width: 100%;
     display: flex;
     flex-direction: column;
-    margin: 10px 0;
 }
+
+.js-cards-container{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+
+}
+
 
 .container-title .cards-container .container{
     height: 100%;
 } 
+
+.cards-container{
+    height: 100vh;
+}
 
 .cards-container .container img{
     width: 85%;
