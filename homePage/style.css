@@ -243,7 +243,7 @@ body{
 
 .container-text{
     font-family: alumni sans;
-    font-size: 18px;
+    font-size: 22px;
     line-height: 2;
     width: 681px;
     font-weight: lighter;
@@ -681,8 +681,7 @@ body{
 .js-cards-container{
     display: flex;
     flex-direction: column;
-    width: 80%;
-
+    height: 134vh;
 }
 
 
