@@ -1,6 +1,5 @@
 var numbers = []
 var firstNumber = 1
-var nextNumber = 1
 var lastNumber 
 var timer = 0
 var timerInterval
@@ -48,18 +47,17 @@ function numClik(e){
     if(e === 1){
         runTimer();
     }
-    if(lastNumber == e && e === firstNumber + 1){
+    if(lastNumber == e){
         console.log("lastNumber");
         clearInterval(timerInterval);
         document.querySelector(".showNext").innerText = `DONE!`
         document.getElementById("you-win").innerHTML = `YOU WIN!`
         document.querySelector(`.numbButton${e}`).style.background = "#D9D9D9"
     }
-    else if(nextNumber === e){
+    else if(firstNumber === e){
         document.querySelector(`.numbButton${e}`).style.background = "#D9D9D9"
-        nextNumber ++
-        document.querySelector(".showNext").innerText = `${nextNumber}`
-        firstNumber = e
+        firstNumber ++
+        document.querySelector(".showNext").innerText = `${firstNumber}`
         
     }
 }
@@ -108,7 +106,6 @@ function newGame(){
     document.getElementById("you-win").innerHTML = ''
     document.querySelector(".getNumber").innerText =''
     firstNumber = 1
-    nextNumber = 1
     buildGame()
 }
 
